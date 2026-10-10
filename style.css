@@ -445,6 +445,9 @@ h1 {
 }
 
 .project-card {
+  background: rgba(12, 15, 20, 0.78);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
   display: flex;
   flex-direction: column;
   min-height: 100%;
